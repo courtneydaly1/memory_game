@@ -1,0 +1,58 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.buttons {
+  cursor: pointer;
+  font-family: Luminari, fantasy;
+  background-color: rgb(243, 180, 135);
+  color: rgb(177, 5, 5);
+  margin: 25px 0px;
+  padding: 5px 10px;
+  position: flex;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Luminari, fantasy;
+  text-align: center;
+}
+
+#score {
+  margin: 10px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Luminari, fantasy;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(238, 223, 204);
+}
+
+#end {
+  display: none;
+}
+
+#end.game-over {
+  display:contents;
+  position:relative;
+  color: rgb(119, 14, 240);
+}
+#restartBtn {
+  margin-left: 475px;
+}
+
+#final-score {
+ font-weight: bold;
+ text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
